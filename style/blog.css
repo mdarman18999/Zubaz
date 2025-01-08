@@ -204,8 +204,47 @@ left: 230px;
     background-repeat: no-repeat;
     width: 1270px;
     height: 503px;
-    background-color: burlywood;
+ 
 }
+
+.section-3-div-1{
+    display: flex;
+    gap: 300px;
+}
+.section-3-div-2 h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.section-3-div-2 p{
+    padding-top: 10px;
+    font-size: 21px;
+    font-weight: 500;
+}
+.section-3-card h2{
+    padding-top: 21px;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(12, 12, 12);
+}
+.section-3-card p{
+    padding-top: 20px;
+    font-size: 21px;
+    font-weight: 400;
+    padding-left: 75px;
+}
+.card-1 {
+    size: 30px;
+}
+
+.section-3-div-3 img {
+    position: relative;
+    left: 50px;
+    top: 300px;
+}
+
+
+/* section 4 */
 
 
 
@@ -297,7 +336,7 @@ left: 230px;
     background-position:top left ;
     /* margin-top: 200px; */
     background-image: url('../Images/mocup01-863x1024.png');
-    background-size: 282px;
+    background-size: 300px;
     background-repeat: no-repeat;
     width:auto;
     height: 730px;
@@ -313,7 +352,7 @@ display: none;
 
 }
 .section-2-div-3 h1{
-    padding-top: 350px;
+    padding-top: 370px;
     font-size: 21px;
     font-weight: 700;
     color: rgb(0, 0, 0);
@@ -335,6 +374,56 @@ display: none;
 
 
 /* section 3 */
+.section-3{
+    margin: 100px auto;
+    background-position: top;
+    background-image: url('../Images/mocup2-864x1024.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 740px;
+    background-position-x: center;
+}
+
+.section-3-div-1{
+    flex-direction: column;
+}
+.section-3-div-2 h1{
+    
+    padding-top: 370px;
+    font-size: 21px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.section-3-div-2 p{
+    
+    text-align: center;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.section-3-card h2{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(12, 12, 12);
+}
+.section-3-card p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 50px;
+    
+}
+.section-3-div-3 img {
+    display: none;
+}
+
+
+/* section 4 */
 
   
 }
