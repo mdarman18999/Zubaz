@@ -152,6 +152,52 @@ header{
     margin-top: 20px;
 }
 
+/* section-2 */
+.section-2-div-1{
+    display: flex;
+    gap: 300px;
+}
+.section-2{
+    
+    margin: 200px auto;
+    background-position: bottom left;
+    /* margin-top: 200px; */
+    background-image: url('../Images/mocup01-863x1024.png');
+    background-size: 427.06px;
+    background-repeat: no-repeat;
+    width: 1270px;
+    height: 503px;
+    /* background-color: burlywood; */
+}
+.section-2-div img{
+
+}
+.section-2-div-2 {
+position: relative;
+top: 250px;
+left: 230px;
+}
+.section-2-div{
+
+}
+.section-2-div-3 h1{
+    padding-top: 20px;
+    font-size: 70px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.section-2-div-3 p{
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.section-2-div-3 span{
+    font-size: 21px;
+    font-weight: 700;
+}
+
+/* section 3 */
+
 
 
 
@@ -190,6 +236,7 @@ header{
     .main-header-div img{
         width:100% ;
     }
+    
 
 
     /* finis the header */
@@ -228,6 +275,57 @@ header{
     .section-1-div-2 img{
         height: 25px;
     }
+
+/* section-2 */
+.section-2-div-1{
+    /* flex-direction: column;
+    gap: 300px; */
+    flex: none;
+}
+.section-2{
+    
+    margin: 100px auto;
+    background-position:top left ;
+    /* margin-top: 200px; */
+    background-image: url('../Images/mocup01-863x1024.png');
+    background-size: 282px;
+    background-repeat: no-repeat;
+    width:auto;
+    height: 730px;
+   background-position-x:center;
+}
+.section-2-div img{
+
+}
+.section-2-div-2 {
+display: none;
+}
+.section-2-div{
+
+}
+.section-2-div-3 h1{
+    padding-top: 350px;
+    font-size: 21px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.section-2-div-3 p{
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.section-2-div-3 span{
+    font-size: 16px;
+    font-weight: 600;
+}
+.class{
+    text-align: center;
+}
+
+
+/* section 3 */
 
   
 }
