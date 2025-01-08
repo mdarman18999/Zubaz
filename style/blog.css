@@ -158,16 +158,14 @@ header{
     gap: 300px;
 }
 .section-2{
-    
     margin: 200px auto;
     background-position: bottom left;
-    /* margin-top: 200px; */
     background-image: url('../Images/mocup01-863x1024.png');
     background-size: 427.06px;
     background-repeat: no-repeat;
     width: 1270px;
     height: 503px;
-    /* background-color: burlywood; */
+   
 }
 .section-2-div img{
 
@@ -196,7 +194,18 @@ left: 230px;
     font-weight: 700;
 }
 
+
 /* section 3 */
+.section-3{
+    margin: 200px auto;
+    background-position: bottom right;
+    background-image: url('../Images/mocup2-864x1024.png');
+    background-size: 427.06px;
+    background-repeat: no-repeat;
+    width: 1270px;
+    height: 503px;
+    background-color: burlywood;
+}
 
 
 
