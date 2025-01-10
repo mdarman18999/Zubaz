@@ -498,6 +498,43 @@ left: 230px;
 }
 
 
+/* section-8 */
+.section-8{
+    background-color: #2332DD;
+}
+.section-8-div{
+    
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.section-8-div-1{
+    display: flex;
+    gap: 20px;
+    width:1296px ;
+    height: 100%;
+}
+
+.section-8-div-5 h1{
+    font-size: 85px;
+    color: #fff;
+    padding-top: 150px;
+}
+.section-8-div-5 P{
+    margin-top: 20px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.section-8-div-6 {
+    display: flex;
+    gap: 25px;
+}
+
+.section-8-images{
+    position: relative;
+    bottom: 50px;
+   
+}
 
 
 
@@ -705,8 +742,8 @@ display: none;
 }
 .section-4-card-1{
     margin: 0 auto;
-    width: 300px;
-    height: 250px;
+    width: 70%;
+    height: 250%;
     background: rgba(0, 0, 0, 0.048);
     text-align: center;
     padding: 30px;
@@ -731,9 +768,6 @@ display: none;
 
 
 
-
-
-
 /* section-6 */
 .section-6{
     background-color: rgba(64, 64, 64, 0.034);
@@ -743,21 +777,19 @@ display: none;
     font-size: 30px;
 }
 
-
- 
-
 /* section-6-div-1 start*/
 .section-6-div-1{
     padding-top: 100px;
     flex-direction: column;
     gap: 20px;
     margin: 0 auto;
+    padding: 15px;
 
 }
 .section-6-div-2{
     margin: 0 auto;
-    width: 338px;
-    height: 370px;
+    width: 100%;
+    height: 100%;
     border: 2px solid black;
     border-radius: 8px;
 }
@@ -840,13 +872,64 @@ display: none;
 
 .section-7-card-2 .section-7-icon{
     font-size: 25px;
+    
 }
 .section-7-div-3{
     padding-top: 100px;
     display: flex;
 }
 .section-7-card-3{
-    padding: 0px 12px;
+    padding: 0px 15px;
 }
 
+
+/* section-8 */
+.section-8{
+    background-color: #2332DD;
+    margin-top: 1000px;
+}
+.section-8-div{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.section-8-div-1{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    width:1296px ;
+    height: 100%;
+}
+
+.section-8-div-5 h1{
+    font-size: 40px;
+    color: #fff;
+    padding-top: 150px;
+    text-align: center;
+}
+.section-8-div-5 P{
+    margin-top: 20px;
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.section-8-div-6 {
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.section-8-images{
+    display: none;
+   
+}
+.section-8-img-1{
+    text-align: center;
+}
+.section-8-div-3 img{
+    width: 100%;
+}
+.section-8-img-1 img{
+    width: 100%;
+}
 }
