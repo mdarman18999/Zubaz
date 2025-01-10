@@ -404,6 +404,89 @@ left: 230px;
     text-align: center;
 }
 
+.section-6-button .button:hover{
+    background-color: darkorange;
+}
+
+/* section-7 */
+.section-7{
+    padding: 120px  0px 120px;
+    display: flex;
+    justify-content: center;    
+}
+.section-7-div{
+    width: 1140px;
+    height: 952px;
+    background-color: bisque;
+}
+
+.section-7-div-2 h1{
+    font-size: 85px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.section-7-card{
+    width: 408px;
+    height: 471px;
+    border: 4px solid black;
+    border-radius: 6px;
+    
+}
+.section-7-div-3 .section-7-card{
+    margin: 0px 12px;
+}
+.section-7-card-1 img{
+    width: 100%;
+    height: 230px;
+}
+.section-7-card-1 img:hover{
+    cursor: pointer;
+}
+.section-7-card-1-button button{
+    padding: 10px 18px;
+    cursor: pointer;
+    color: black;
+    background-color: #ABFB4F;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.section-7-card-1-button button:hover{
+    background-color: blue;
+    color: white;
+    
+}
+.section-7-card-1-button{
+    position: relative;
+    text-align: right;
+    right: 25px;
+    bottom: 210px;
+}
+.section-7-card-2{
+    padding: 20px;
+}
+.section-7-card-2 p{
+    font-size: 21px;
+    font-weight: 400;
+    cursor: pointer;
+    margin: 0px 0px 10px;
+}
+.section-7-card-2 h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin: 0px 0px 20px;
+}
+.section-7-card-2 .section-7-icon{
+    font-size: 30px;
+}
+.section-7-div-3{
+    padding-top: 100px;
+    display: flex;
+}
+
 
 
 
