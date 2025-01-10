@@ -766,5 +766,9 @@ display: none;
     font-size: 18px;
 }
 
-
+/* section-7 */
+.section-7-div-3{
+    padding-top: 100px;
+    flex-direction: column;
+}
 }
