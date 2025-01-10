@@ -535,7 +535,21 @@ left: 230px;
     bottom: 50px;
    
 }
+/* footer */
 
+
+footer{
+    background-color: #40404021;
+}
+.last-footer{
+    display: flex;
+    justify-content: space-around;
+    padding:20px 100px;
+}
+.last-footer-2{
+    display: flex;
+    gap: 10px;
+}
 
 
 
@@ -930,6 +944,28 @@ display: none;
     width: 100%;
 }
 .section-8-img-1 img{
-    width: 100%;
+    width: 70%;
+}
+
+/* footer */
+
+
+
+
+
+
+
+/* last-footer */
+footer{
+    background-color: #40404021;
+}
+.last-footer{
+    flex-direction: column;
+    gap: 10px;
+    padding:20px 20px;
+}
+.last-footer-2{
+    display: flex;
+    gap: 10px;
 }
 }
