@@ -1043,14 +1043,15 @@ footer{
 }
 .footer-input-div{
     padding-top: 50px;
-    margin-left: 20px;
-    width: 100%;
+    
+    
     
 }
 .footer-input-div input{
     padding: 15px;
     border-radius: 8px;
     border-style: none;
+    
     
     
     
